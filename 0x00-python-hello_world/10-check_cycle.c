@@ -22,6 +22,5 @@ int check_cycle(listint_t *list)
 		}
 		temp = temp -> next;
 	}
-	free(temp);
 	return (0);
 }
