@@ -2,7 +2,4 @@
 
 def square_matrix_map(matrix=[]):
     new_matrix = matrix.copy()
-    square = []
-    for row in new_matrix:
-        square.append(list(map(lambda x: x * x, row)))
-    return square
+    return list(map(lambda row: list(map(lambda x: x * x, row)), new_matrix))
