@@ -93,3 +93,10 @@ class Rectangle(Base):
                     print("#", end="\n")
                 else:
                     print("#", end="")
+
+
+    def __str__(self):
+        """return representation for the Rectangle Object"""
+        start = f"[Rectangle] ({self.id}) {self.x}/{self.y} - "
+        end = f"{self.width}/{self.height}"
+        return start + end
