@@ -47,5 +47,5 @@ class Square(Rectangle):
         dict_rep['x'] = self.x
         dict_rep['y'] = self.y
         dict_rep['id'] = self.id
-        dict_rep['size'] = self.size
+        dict_rep['size'] = self.width
         return dict_rep
