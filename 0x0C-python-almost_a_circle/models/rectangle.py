@@ -87,7 +87,9 @@ class Rectangle(Base):
 
     def display(self):
         """prints in stdout the Rectangle instance with the character #"""
+        print("\n" * self.y, end="")
         for row in range(self.height):
+            print(" " * self.x, end="")
             for col in range(self.width):
                 if col is self.width - 1:
                     print("#", end="\n")
