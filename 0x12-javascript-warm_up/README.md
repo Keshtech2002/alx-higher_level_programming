@@ -24,7 +24,7 @@ $ sudo apt-get install -y nodejs
 ```
 
 #### Install semi-standard
-[Documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+[Documentation](https://github.com/standard/semistandard)
 ```
 $ sudo npm install semistandard --global
 ```
