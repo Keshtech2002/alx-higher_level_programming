@@ -12,7 +12,7 @@ $ sudo apt-get install -y nodejs
 ```
 
 ##### Install semi-standard
-[Documentation](Install semi-standard)
+[Documentation](https://github.com/standard/semistandard)
 ```
 $ sudo npm install semistandard --global
 ```
